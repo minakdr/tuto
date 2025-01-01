@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+.Task {
+  background-color: lightblue;   /* Set background color */
+  padding: 20px;                 /* Add padding */
+  border-radius: 5px;            /* Add border radius */
+  text-align: center;            /* Center the text */
+  margin: 10px;                  /* Add margin around the div */
+}
