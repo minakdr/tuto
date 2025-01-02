@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 import TodoList from './TodoList.js';
+import Contact from './Contact.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<TodoList />);
+root.render(<Contact />);
 
 

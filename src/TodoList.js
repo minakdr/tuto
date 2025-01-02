@@ -58,7 +58,6 @@ return (
 
 <h1 style={style}>Good {timeOfday}, feeling productive ?</h1>
 
-
 <Segment/>   
 <Segment/>   
 <Segment/>   
