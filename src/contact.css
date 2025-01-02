@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+.contactCard {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.contactCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+.contactCard img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover; /*this is used to avoid img distortion ( like in figma ) */
+    border: 2px solid #02c242;
+}
+
+
+.contactCard h1 {
+    margin: 0;
+    color: #333;
+    font-size: 35px
+}
+
+
+.contactCard p {
+    margin: 5px 0;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 400;
+}
+

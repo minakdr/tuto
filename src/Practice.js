@@ -14,7 +14,7 @@ function AddNumber ( a , b ) {
 
 return (  /*dont forget to alyway return a div (jsx components you cant return values directly this is not js) */
     <div> the sum is {AddNumber (4 , 4)}</div>
-   
+
 
 );
 }
