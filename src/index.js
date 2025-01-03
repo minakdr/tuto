@@ -4,9 +4,10 @@ import './index.css';
 
 import TodoList from './TodoList.js';
 import Contact from './Contact.js';
+import Jokes from './joke.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<Contact />);
+root.render(<Jokes />);
 
 

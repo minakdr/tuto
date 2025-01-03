@@ -37,7 +37,7 @@ let timeOfday
 let style = {}
 
 if (hour < 12) { 
-    timeOfday = 'morning?' ;
+    timeOfday = 'morning' ;
     style.color ='rgb(99, 203, 255)';
 }
 else if ( hour < 18 ) { 
@@ -56,7 +56,7 @@ return (
 <img className="img" src="./plants.jpg" alt="Plants" />
 <img className="img" src="./plants.jpg" alt="Plants" />
 
-<h1 style={style}>Good {timeOfday}, feeling productive ?</h1>
+<h1 style={style}>Good {timeOfday} ,feeling productive ?</h1>
 
 <Segment/>   
 <Segment/>   
