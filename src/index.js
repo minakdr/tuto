@@ -12,6 +12,6 @@ import Page from './Practice.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<Page />);
+root.render(<Contact />);
 
 

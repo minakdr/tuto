@@ -16,7 +16,8 @@ const todoList = [
 ];
 /*the checkbox will throw a warning because now its technically not an onchange element anymore 
 since it depends on the todoList array not the user input  */
-function TodoItem (props) { return( <div className='Task'>
+function TodoItem (props) { 
+    return( <div className='Task'>
     <input type='checkbox' checked= {props.item.completed}/> 
     <p> {props.item.task} </p>
 

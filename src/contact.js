@@ -5,7 +5,7 @@ import './contact.css'
 
 
 function ContactCard(props) {
-    console.log(props);
+   /* console.log(props);*/
 return ( 
  <div className='contactCard'>
 

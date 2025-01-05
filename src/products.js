@@ -38,7 +38,7 @@ const productsComponents = productslist.map((el) => (
 ));
 
 return (
-    /*we render the whole list od products  */
+    /*we render the whole list of products  */
     <div>
     <h1>Product List</h1>
     {productsComponents}
