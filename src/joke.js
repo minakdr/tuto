@@ -69,7 +69,7 @@ function Jokes() {
                 Upvotes={10}
                 Downvotes={5}
                 comments={[
-                    {author: "soumoum", text: "dja3t!"},
+                    {author: "soumsoum", text: "dja3t!"},
                     {author: "Mina", text: "t3ayi had la blague."}
                 ]}
             />

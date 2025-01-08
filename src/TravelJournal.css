@@ -1,3 +1,8 @@
+body{
+    margin-top: 150px;
+}
+
+
 .Header {
     display: flex;
     justify-content: center;
@@ -31,6 +36,7 @@
     max-width: 800px;
     height: 180px;
     margin-bottom: 30px;  
+    padding: 20px;
 
     margin: 20px auto;
     font-family: Arial, sans-serif;
@@ -111,6 +117,6 @@
 
 
 hr{
-    margin-top: 40px;
+    margin-top: 10px;
     color: #333;
 }
