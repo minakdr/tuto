@@ -8,10 +8,11 @@ import Jokes from './joke.js';
 import Products from './products.js';
 import TodoList2 from './TodoList2'
 import Page from './Practice.js'
+import TravelJournal from './TravelJournal.js';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<Page />);
+root.render(<TravelJournal />);
 
 

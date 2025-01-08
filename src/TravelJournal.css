@@ -1,0 +1,25 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F55A5A;
+    width: 100vw;  
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+}
+
+
+.Header .Logo {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    color: white;
+}
+
+
+.Header .Logo img {
+    width: 20px;
+    height: auto;
+    object-fit: contain;
+}

@@ -1,0 +1,72 @@
+
+
+.jokes-container {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+
+.joke {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.joke p:first-of-type {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.joke p:nth-of-type(2) {
+    font-style: italic;
+    color: #555;
+}
+
+/* Styling for the upvotes and downvotes */
+.joke p:nth-of-type(3) span {
+    font-weight: bold;
+}
+
+.joke p:nth-of-type(3) span:nth-of-type(1) {
+    color: green;
+}
+
+.joke p:nth-of-type(3) span:nth-of-type(2) {
+    color: red;
+}
+
+
+.joke-comments {
+    margin-top: 10px;
+}
+
+.joke-comments p {
+    font-weight: bold;
+}
+
+.joke-comments ul {
+    padding-left: 20px;
+}
+
+.joke-comments li {
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.joke-comments li span:first-of-type {
+    font-weight: bold;
+    color: #333;
+}
+
+.joke-comments li span:last-of-type {
+    color: #555;
+}
+
+/* Divider line */
+.joke hr {
+    margin-top: 10px;
+}
